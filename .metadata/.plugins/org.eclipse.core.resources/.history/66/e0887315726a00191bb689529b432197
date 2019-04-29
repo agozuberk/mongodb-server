@@ -1,0 +1,10 @@
+package com.agozuberk.mongodbserver;
+
+public class Log {
+	@Id
+	  public ObjectId _id;
+	  
+	  public String serverName;
+	  public String log;
+
+}

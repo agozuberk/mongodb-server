@@ -1,0 +1,13 @@
+package com.agozuberk.mongodbserver;
+
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+
+public class Log {
+	@Id
+	  public ObjectId _id;
+	  
+	  public String serverName;
+	  public String log;
+
+}

@@ -1,0 +1,5 @@
+package com.agozuberk.mongodbserver;
+
+public interface LogRepository {
+
+}
